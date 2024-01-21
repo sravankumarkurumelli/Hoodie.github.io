@@ -287,7 +287,8 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: auto;
+  padding: 2rem 0; 
   font-family: var(--primary-font);
 }
 
@@ -304,12 +305,12 @@ footer .container .footer-primary-heading {
 /* You can make it responsive for your own screen if you wanna to, but for now this is good enough. */
 @media only screen and (max-width: 900px) {
   header {
-    height: 120vh;
+    height: 50vh;
     text-align: center;
   }
 
   .section-one {
-    height: 120vh;
+    height: 50vh;
     text-align: center;
   }
 
@@ -318,6 +319,10 @@ footer .container .footer-primary-heading {
     height: 250px;
   }
 
+  .products {
+    margin-top:5rem;
+    
+}
   .main-headings {
     font-size: 3rem;
     margin-top: 2rem;
@@ -331,4 +336,21 @@ footer .container .footer-primary-heading {
     width: 150px;
     height: 150px;
   }
+}
+@media (max-width:600px) {
+  .main-headings {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.primary-headings {
+  width: 300px;
+}
+.products .products-heading {
+ 
+  font-size: 2rem;
+  margin-bottom:12rem;
+}
+.products {
+  margin-top: 8rem;
+}
 }
