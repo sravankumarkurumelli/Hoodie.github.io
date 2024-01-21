@@ -338,10 +338,10 @@ footer .container .footer-primary-heading {
   }
 }
 @media (max-width:600px) {
-body{
-  width: 120%;
+/* body{
+  width: 280px;
   margin: 0 auto;
-}
+} */
   header {
     height: auto;
     text-align: center;
@@ -371,7 +371,7 @@ body{
   justify-content: center;
   align-items: center;
   /* margin: 20px; */
-  max-width: 45rem;
+  max-width: 0rem;
 }
 .primary-headings {
   max-width: 300px;
@@ -379,5 +379,22 @@ body{
   line-height: 25px;
   margin-bottom: 1rem;
   color: #716d6d;
+}
+nav {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+.logo {
+  margin-left: 0rem;
+}
+.burger {
+
+  margin-right: 0rem;
+  /* border: 2px solid #000; */
 }
 }
