@@ -338,6 +338,18 @@ footer .container .footer-primary-heading {
   }
 }
 @media (max-width:600px) {
+body{
+  width: 120%;
+  margin: 0 auto;
+}
+  header {
+    height: auto;
+    text-align: center;
+}
+.section-one {
+  height: auto;
+  text-align: center;
+}
   .main-headings {
     font-size: 2rem;
     margin-top: 2rem;
@@ -352,5 +364,20 @@ footer .container .footer-primary-heading {
 }
 .products {
   margin-top: 8rem;
+}
+.products .product-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px; */
+  max-width: 45rem;
+}
+.primary-headings {
+  max-width: 300px;
+  font-family: var(--primary-font);
+  line-height: 25px;
+  margin-bottom: 1rem;
+  color: #716d6d;
 }
 }
