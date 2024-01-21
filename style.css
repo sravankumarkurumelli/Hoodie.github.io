@@ -360,7 +360,7 @@ footer .container .footer-primary-heading {
 .products .products-heading {
  
   font-size: 2rem;
-  margin-bottom:12rem;
+  margin-bottom:1rem;
 }
 .products {
   margin-top: 8rem;
@@ -396,5 +396,18 @@ nav {
 
   margin-right: 0rem;
   /* border: 2px solid #000; */
+}
+.products .product-categories{
+  width: 280px;
+  margin: 0 auto;
+}
+.products .product-categories button {
+  margin-right: 5px;
+  margin-bottom: rem;
+}
+.btn-outline.active {
+
+  padding: 10px 15px;
+ 
 }
 }
